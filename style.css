@@ -456,7 +456,7 @@ input[type=email] {
 	}
 }
 /* Another minor breakpoint to adjust some elements as screens shrink */
-@media (max-width: 1160px) {
+@media (max-width: 1200px) {
 	.logo-top {
 		padding: 11.25rem 3.5rem;
 	}
