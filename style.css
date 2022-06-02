@@ -552,9 +552,8 @@ input[type=email] {
 	}
 	.bg-image-top {
 	background-image: url(https://psd.hackeryou.com/assignment1-assets/arora/asset-2.jpg);
-	height: 100%;
 	background-position: right;
-	background-size: contain;
+	background-size: cover;
 	}
 	.burger {
 		display: block;
@@ -604,18 +603,12 @@ input[type=email] {
 		flex-direction: column;
 		align-items: center;
 	}
-	.content-box a {
-		width: 33%;
+	.content-box .read-more {
+		width: 90%;
 		text-align: center;
 		font-size: 2.1rem;
 	}
 /* Collection */
-/* white border around the mobile version seems like a designer error, IRL would approach designer to verify before hardcoding. */
-	.collection {
-		border-left: 1px solid white;
-		border-right: 1px solid white;
-		border-bottom: 1px solid white;
-	}
 	.not-shown-mobile {
 		display: none;
 	}
@@ -675,8 +668,11 @@ input[type=email] {
 		align-items: center;
 	}
 	.materials .read-more {
-		padding: 20px 0;
-		margin: 50px;
+    width: 90%;
+		padding: 12px;
+		margin: 50px 0;
+
+		font-size: 2.1rem;
 	}
 /* Footer */
 	footer .wrapper {
